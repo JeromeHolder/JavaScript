@@ -3,8 +3,8 @@ var answer = 2 + 2;
 console.log(answer);
 
 //function
-function myFunction(){
-	var answer1 = 1 + 2;
-	// unsure where/how to use this >> console.log(answer1)
+function myFunction(x, y){
+	var answer1 = x + y;
+	console.log(answer1)
 }
-
+myFunction(1, 2);
